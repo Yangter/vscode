@@ -7,3 +7,6 @@ var n1 = (function helloGuy(name){
     return printName;
 })("Jack");
 n1();
+
+var ps = document.getElementsByTagName('p');
+console.log(ps.length);
